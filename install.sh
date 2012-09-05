@@ -10,13 +10,10 @@ tar xzvf Python-2.5.4.tgz
 cd Python-2.5.4
 ./configure --prefix=/opt/python2.5
 make && make install
-echo "Creating link"
 ln -s /opt/python2.5/bin/python2.5 /usr/bin/python2.5
-echo "Now creating cat file"
 cat > /etc/ld.so.conf.d/opt-python2.5.conf << EOF
 /opt/python2.5/lib
 EOF
-echo "Created Conf File"
 /sbin/ldconfig
 #ln -s /opt/python2.5/lib/lib/python2.5.so /opt/python2.5/lib/python2.5/config
 cd
