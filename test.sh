@@ -12,17 +12,8 @@ function checkInstallation {
 
 checkInstallation automake
 checkInstallation autoconf
-checkInstallation gcc-c++
-checkInstallation python-devel
-checkInstallation zlib-devel
-checkInstallation openssl-devel
-checkInstallation libpcap-devel.x86_64
-checkInstallation subversion
 checkInstallation screen
-checkInstallation glibc-devel
 checkInstallation python2.5
-checkInstallation scapy
 checkInstallation pyrit
-checkInstallation cpyrit-cuda
 checkInstallation cowpatty
 checkInstallation crunch
