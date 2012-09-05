@@ -12,30 +12,30 @@ Script which installs Crunch, Pyrit and Cowpatty on a running Amazon EC2 Cluster
 
 ## Git Installation on CentOS 5.5
 
-i386
+### i386
 
 wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el5.rf.i386.rpm
 
-OR x86_64
+### OR x86_64
 
 wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el5.rf.x86_64.rpm
 
 
-Install DAG's GPG key
+### Install DAG's GPG key
 
 rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
 
 
-Verify download
+### Verify download
 
 rpm -K rpmforge-release-0.5.2-2.el5.rf.*.rpm
 
 
-Install package
+### Install package
 
 rpm -i rpmforge-release-0.5.2-2.el5.rf.*.rpm
 
 
-Install Git
+### Install Git
 
 yum install git
